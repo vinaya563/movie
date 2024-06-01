@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+### Functionalities
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 1) Login and signup using Firebase
 
-## Available Scripts
+   ![image](https://github.com/vinaya563/movie/assets/91210199/adeef49f-bc66-4d72-80cc-2e0b9e6c448e)
+   
+   ![image](https://github.com/vinaya563/movie/assets/91210199/879b0df4-cc37-4cf9-bda7-605db050d941)
 
-In the project directory, you can run:
+   # 2) Home page where all the list of movies are displayed
+   
+   ![image](https://github.com/vinaya563/movie/assets/91210199/aabc5dc5-9189-4653-b295-9c192d6fdbd8)
+   
+   This pages have a functionality where two eyes one with cancelled and one normal eye are being displayed
+   Cancelled eye - If you click on cancelled eye , the movie gets added into ROTTEN ORANGES list which can be accessed through navbar
+=Normal eye - If you click on normal eye , the movie gets added into HITS list which can be accessed through navbar
 
-### `npm start`
+   # 3) Playlist created by the user (Private access)
+   
+   1 . "Hits" contains all the movies that are being liked by the user . This is being displayed in a different page and if the user wants to remove that movie from the playlist he can remove , by hovering over the movie , an into symbol appears and if the user clickks on it , the movie gets removed.
+   This page also has a counter bar that is being displayed that tells , how many movies are being there in the playlist currently
+   
+   ![image](https://github.com/vinaya563/movie/assets/91210199/5733866d-c553-407f-881b-12469b879c57)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+      2 . "Rotten" contains all the movies that are being disliked by the user . This is being displayed in a different page and if the user wants to remove that movie from the playlist he can remove , by hovering over the movie , an into symbol appears and if the user clickks on it , the movie gets removed
+         This page also has a counter bar that is being displayed that tells , how many movies are being there in the playlist currently
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![image](https://github.com/vinaya563/movie/assets/91210199/09519a98-7a09-461a-9131-f3af612d872a)
 
-### `npm test`
+# 4) Search Bar with suggestions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This page has a search bar embedded into it , in which if we type any movie , we get suggestions of the movies starting with that particular letters that are being currently placed inside the placeholder.
+In the result card of search bar , again we have functionality where we can add certain movies into hits / rotten depending on our choice
 
-### `npm run build`
+![image](https://github.com/vinaya563/movie/assets/91210199/82adbd69-03db-431f-a56a-c94ac7b9a598)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 5) Playlist being accessed by public user (public access)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The two playlists that are being created are displayed at the landing page which any user can access without the autorisation (signin)
+The limitation of this access is that , the public user cannot edit the playlist as the playlist creator can edit, the public user is given only read access
+If the public user wants to give feedback he is being prompted to login and change the playlist according to his interests
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![image](https://github.com/vinaya563/movie/assets/91210199/abfaf64c-659c-48e0-80b6-8148245af460)
 
-### `npm run eject`
+![image](https://github.com/vinaya563/movie/assets/91210199/7290a99e-22e5-4605-b121-a6912e8b5603)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Tech stack used : REACT.JS , HTML,CSS , Javascript , firebase (for authentiaction)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# The link where the app is being deployed :
+https://movie-seven-self.vercel.app/
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
