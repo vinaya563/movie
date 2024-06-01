@@ -49,7 +49,17 @@ If the public user wants to give feedback he is being prompted to login and chan
 https://movie-seven-self.vercel.app/
 
 
+# Steps to run:
 
+1) Go the website being provided and create the account on your own
+2) Instead of login , if yu want to see any list (public lists) you can see them by clicking on the list of your choice , do reember you have only read-access, If you want edit access you must login to website
+3) Now login into the website where you will be having a navbar ( movies - list of all movies , hits playlist - all hits created by user , rotten playlist - rotten movies added by user)
+4) You will see the bunch of movies in the home page with the poster as well as short description bout movie (title and year of release)
+5) Now you can add any movie into any of the playlist by hovering over that partcular movie , when hovered you will be having two eye symbols - cancelled eye(goes to rotten) , normal eye(goes to hits)
+6) Now if you want to see rotten /hit playlist (private playlist) you can access them via navbar
+7) If you want to remove any movie from the playlist you can remove just be hovering into them when hovered you will see a cancel button , if you click on it , the movie gets deleted from that playlist
+8) Search button is there , where you can search any movies and in the result card you can add any movies to the respective playlist of your choice
+9) If you want to logout , you can do it through navbar , where again you will be taken into landing page
 
 
 
